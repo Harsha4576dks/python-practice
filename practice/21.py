@@ -1,10 +1,9 @@
 def Total():
-
     numbers = [10, 20, 30, 40]
+    result = 0
 
-    for adding in numbers:
-        result = numbers[0]+numbers[1]+numbers[2]+numbers[3]
-
+    for number in numbers:
+        result += number
     print(result)
 
 Total()
